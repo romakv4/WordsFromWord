@@ -1,0 +1,3 @@
+<div class="letterBox" [style.width]="calculateWidth()">
+    <app-letter *ngFor="let letter of splittedWord; let index = index" [letter]="letter" [letterIndex]="index"></app-letter>
+</div>

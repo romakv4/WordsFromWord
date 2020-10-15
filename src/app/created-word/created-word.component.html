@@ -1,0 +1,3 @@
+<div class="letterBox" [style.width]="calculateWidth()">
+    <app-pushed-letter *ngFor="let letter of word | keyvalue: originalOrder" [letter]="letter" [isLetterSelected]="true"></app-pushed-letter>
+</div>
